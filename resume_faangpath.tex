@@ -1,0 +1,119 @@
+\documentclass{resume} % Use the custom resume.cls style
+
+\usepackage[left=0.4 in,top=0.4in,right=0.4 in,bottom=0.4in]{geometry} % Document margins
+\newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}} 
+\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+\name{Joy Roy} % Your name
+% You can merge both of these into a single line, if you do not have a website.
+\address{
+{Email: jor115@pitt.edu} \\ 
+{LinkedIn: \href{https://www.linkedin.com/in/joy-roy-235b12144/}{joy-roy-235b12144}} \\
+{Website: \href{http://www.joyroy.org}{joyroy.org}} 
+}  %
+
+\usepackage{xcolor}
+\usepackage{fancyhdr} %Modify al the settings (starting with pagestype
+  \pagestyle{fancy}
+  \fancyhf{}
+  \rfoot{\textcolor{gray}{Updated: \monthyeardate\today}}
+  \setlength{\footskip}{14pt}  % Adjust this for desired footer distance from the bottom of the page
+  \renewcommand{\headrulewidth}{0pt}  % Removes the horizontal line at the top of the page
+
+\input{glyphtounicode}
+
+\pdfgentounicode=1
+
+\begin{document}
+
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Education}
+
+{\bf Ph.D. Biomedical Informatics}, University of Pittsburgh School of Medicine\hfill {2020 - 2024}
+
+{\bf B.S. Bioinformatics and Computational Biology}, University of Maryland Baltimore County \hfill {2015 - 2019}\\
+Member of Phi Beta Kappa
+
+{\bf B.A. Mathematics}, University of Maryland Baltimore County \hfill {2015 - 2019} \\
+Minor in Computer Science \smallskip 
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+% TECHINICAL STRENGTHS	
+%----------------------------------------------------------------------------------------
+\begin{rSection}{SKILLS}
+
+\begin{tabular}{ @{} >{\bfseries}l p{0.8\linewidth} l }
+Technical  & C/C++, Python, Bash, SQL, R, Matlab, LaTex \\
+Packages & Qt, Numpy, Pandas, Nipype, Sklearn, PyTorch, Seaborn, Networkx, OpenAI,  \\
+Other  & Agile development, Object Oriented Programming, Docker, Linux/Unix, Adobe Suite, Jira/Confluence, Google Cloud Platform, Github, Data Visualization, Scientific Writing\\
+Certification & Interim DOD Secret Clearance
+
+\end{tabular}\\
+\end{rSection}
+
+\begin{rSection}{EXPERIENCE}
+
+% TEMPLATE
+% \textbf{Role Name} \hfill Jan 2017 - Jan 2019\\
+% Company Name \hfill \textit{San Francisco, CA}
+%  \begin{itemize}
+%     \itemsep -3pt {} 
+%      \item Achieved X\% growth for XYZ using A, B, and C skills.
+%      \item Led XYZ which led to X\% of improvement in ABC
+%     \item Developed XYZ that did A, B, and C using X, Y, and Z. 
+%  \end{itemize}
+
+\textbf{Health Informatics Scientist} \hfill 2025 - Present\\
+Henry M Jackson Foundation \hfill \textit{Bethesda, MD}
+ \begin{itemize}
+    \itemsep -4pt {} 
+     \item Design and semi-automatically centralize scalable databases with heterogenous datasets
+     \item Support computational approaches to studying blast induced traumatic brain injury
+ \end{itemize}
+ 
+\textbf{Pre-Doctoral Fellow} \hfill 2020 - 2024\\
+Pediatric Imaging Research Center, Children's Hospital of Pittsburgh \hfill \textit{Pittsburgh, PA}
+ \begin{itemize}
+    \itemsep -4pt {} 
+    \item Collaborated with Department of Psychiatry, Radiology, and Informatics to do high level data analyses on clinical data
+     \item Developed, trained, and evaluated machine learning models, including Random Forests and Convolutional Neural Networks, to derive predictive insights from large medical imaging datasets.
+    \item Conducted advanced statistical analysis and data preprocessing on medical data, identifying patterns and trends within clinical populations to drive research findings.
+    \item Automated MRI preprocessing pipelines with custom Python scripts, utilizing libraries such as FSL and NumPy to perform tasks like segmentation, registration, and data normalization.
+    \item Developed custom commandline software using Bash, Python, and Docker
+    \item Trained deep learning models on Google Cloud Compute Engine and Slurm-based HPC clusters, optimizing performance through model tuning and cross-validation techniques.
+    \item Published methods and findings to scientific journals
+ \end{itemize}
+ 
+\textbf{Software Engineer} \hfill 2019 - 2020\\
+Hughes Network Systems \hfill \textit{Gaithersburg, MD}
+ \begin{itemize}
+    \itemsep -4pt {} 
+     \item Designed and implemented real time software for protocols, algorithms, and products using C/C++
+    \item Researched and tested system solutions to make applications perform optimally over IP-based wireless networks.
+    \item Maintained Jenkins pipelines for automated unit testing and continuous integration and continuous development.
+    % \item Handled ITAR controlled technical data
+    \item Developed shell scripts on Linux to automate workflows
+ \end{itemize}
+
+%%%%% OLD
+
+% \textbf{Research Assistant} \hfill 2017 - 2020\\
+% Lobo Lab, University of Maryland Baltimore County \hfill \textit{Baltimore, MD}
+%  \begin{itemize}
+%     \itemsep -4pt {} 
+%      \item Developed an algorithm to encode and curate the biological data in planaria based on anatomical ontologies 
+%      \item Lead a project team to develop a software tool written in C/C++ (with Qt framework) integrating this methodology with a GUI for the curation of data into a database managed in SQL.
+%     \item Published software and methods in Oxford Bioinformatics
+    
+%  \end{itemize}
+
+\end{rSection} 
+
+
+
+\end{document}
